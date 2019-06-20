@@ -1,9 +1,4 @@
 
-
-//
-// IMPORTS
-//
-
 @import "reset";
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
@@ -30,8 +25,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
+  font-family: "HelveticaNeue";
+  color: darkGray;
   font-weight: bold;
 
   line-height: 1.7;
@@ -44,10 +39,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
-  a {
-    color: inherit;
-  }
+  font-size: 50px;
+  margin-top: 20px;
 }
 
 h2 {
@@ -106,7 +99,7 @@ strong, b {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
 }
 
 // Fixes images in popup boxes from Google Translate
